@@ -1,0 +1,22 @@
+body {
+    color: #999;
+}
+
+.wrapper {
+  width: 320px;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid black;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.cell.active {
+  background: url('../assets/goblin.png');
+  background-size: contain;
+}
